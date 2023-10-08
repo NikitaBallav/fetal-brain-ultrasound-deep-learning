@@ -6,7 +6,7 @@ The primary objective of this research project is to develop an automated system
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Dataset Description:**
 
-The dataset used in this project consists of fetal ultrasound images. These images include both normal and anomalous cases of fetal brain conditions. The dataset is labeled and divided into two parts, with a 4:1 split for training and validation. Additionally, a set of 2949 unlabelled fetal ultrasound images is used for testing the developed model.
+The dataset used in this project is extracted from various research works and through internet as no dataset of medical organization has been granted, it consists of fetal ultrasound images. These images include both normal and anomalous cases of fetal brain conditions. The dataset is labeled and divided into two parts, with a 4:1 split for training and validation. Additionally, a set of 2949 unlabelled fetal ultrasound images is used for testing the developed model.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Methodology:**
 
