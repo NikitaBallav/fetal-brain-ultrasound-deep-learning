@@ -5,8 +5,8 @@
 The primary objective of this research project is to develop an automated system for the early detection and categorization of fetal brain abnormalities using ultrasound images. This system aims to enhance the visibility of abnormalities in ultrasound images, segment the fetal cranium and brain regions accurately, and classify the fetal brain conditions as either normal or anomalous. The ultimate goal is to provide healthcare personnel with a reliable and efficient tool for prenatal diagnosis, leading to improved patient outcomes.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Dataset Description:**
-
-The dataset used in this project is extracted from various research works and through internet as no dataset of medical organization has been granted, it consists of fetal ultrasound images. These images include both normal and anomalous cases of fetal brain conditions. The dataset is labeled and divided into two parts, with a 4:1 split for training and validation. Additionally, a set of 2949 unlabelled fetal ultrasound images is used for testing the developed model.
+The FETAL PLANES DB is a maternal-fetal ultrasound image dataset retrieved from Zenodo, a renowned research data repository, and is openly accessible. This dataset serves as a valuable asset for this project and can be accessed at the following link: [FETAL_PLANES_ZENODO.zip](https://zenodo.org/record/3904280/files/FETAL_PLANES_ZENODO.zip?download=1).
+It consists of fetal ultrasound images of three distinguished brain planes. These images include both normal and anomalous cases of fetal brain conditions. The dataset is labeled and divided into two parts, with a 4:1 split for training and validation. Additionally, a set of 2949 unlabelled fetal ultrasound images is used for testing the developed model.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Methodology:**
 
