@@ -3,11 +3,16 @@
 **Project Objective:**
 
 The primary objective of this research project is to develop an automated system for the early detection and categorization of fetal brain abnormalities using ultrasound images. This system aims to enhance the visibility of abnormalities in ultrasound images, segment the fetal cranium and brain regions accurately, and classify the fetal brain conditions as either normal or anomalous. The ultimate goal is to provide healthcare personnel with a reliable and efficient tool for prenatal diagnosis, leading to improved patient outcomes.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Dataset Description:**
+
 The FETAL PLANES DB is a maternal-fetal ultrasound image dataset retrieved from Zenodo, a renowned research data repository, and is openly accessible. This dataset serves as a valuable asset for this project and can be accessed at the following link: [FETAL_PLANES_ZENODO.zip](https://zenodo.org/record/3904280/files/FETAL_PLANES_ZENODO.zip?download=1).
 It consists of fetal ultrasound images of three distinguished brain planes. These images include both normal and anomalous cases of fetal brain conditions. The dataset is labeled and divided into two parts, with a 4:1 split for training and validation. Additionally, a set of 2949 unlabelled fetal ultrasound images is used for testing the developed model.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Methodology:**
 
 1. **Ultrasound Image Enhancement and Segmentation:** The project begins with the enhancement of ultrasound images to improve the visibility of abnormalities. Following this enhancement, a segmentation process is applied to isolate the cranium and brain regions in the images. Given the inherent noise in ultrasound pictures, a novel and innovative segmentation approach is implemented to achieve accurate results.
@@ -15,7 +20,9 @@ It consists of fetal ultrasound images of three distinguished brain planes. Thes
 2. **Categorization into Brain Planes:** After segmentation, the enhanced and segmented images are further divided into three distinct brain planes, namely Trans-cerebellum, Transthalamic, and Trans-ventricular. This division is performed using a convolutional autoencoder.
 
 3. **Training the Convolutional Autoencoder:** A convolutional autoencoder model is trained using the labeled dataset, which includes images categorized as either normal or anomalous. The model is designed to minimize the Mean Squared Error (MSE). Notably, the model exhibits remarkable performance with a low MSE value of 0.00297. The training process is monitored using loss curves, which indicate that the model effectively learns and generalizes after the 15th epoch.
+   
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Results:**
 
 The project yields impressive results, demonstrating the high efficiency and fit of the developed model. Specifically:
